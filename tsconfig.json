@@ -1,7 +1,7 @@
 {
     "compilerOptions": {
-      "esModuleInterop": true,
-      "sourceMap": true,
+      "esModuleInterop": true, // import * as React from 'react'; => import React from 'react';
+      "sourceMap": true, // 에러 있는곳 찾아 갈때
       "lib": ["ES2020", "DOM"],
       "jsx": "react", // jsx는 리액트꺼다
       "module": "esnext", // 최신 모듈을 쓰겠다 (ex import, export)
